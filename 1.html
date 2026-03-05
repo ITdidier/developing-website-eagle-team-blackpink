@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff - St Peter College of Shyogwe</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+        }
+        nav {
+            background-color: #0a1f44;
+            color: white;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h2 {
+            font-size: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(to right, #0a1f44, #163d7a);
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 32px;
+        }
+        .principal {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .principal img {
+            width: 220px;
+            border-radius: 10px;
+        }
+
+        .principal-text h2 {
+            margin-bottom: 10px;
+            color: #0a1f44;
+        }
+
+        .principal-text p {
+            margin-bottom: 8px;
+        }
+        .teachers {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .teachers h2 {
+            margin-bottom: 20px;
+            color: #0a1f44;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #0a1f44;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        footer {
+            text-align: center;
+            background-color: #0a1f44;
+            color: white;
+            padding: 15px;
+            margin-top: 40px;
+        }
+        @media (max-width: 768px) {
+            .principal {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+
+        
+.teacher-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.teacher-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.teacher-card:hover {
+    transform: translateY(-8px);
+}
+
+.teacher-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.teacher-card h3 {
+    margin-bottom: 10px;
+    color: #0a1f44;
+}
+
+.teacher-card p {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h2>St Peter College of Shyogwe</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="staff.html">Staff</a></li>
+            <li><a href="news.html">News & Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="header">
+        <h1>Our School Staff</h1>
+    </section>
+    <section class="principal">
+        <img src="1.jfif" alt="Principal Photo">
+
+        <div class="principal-text">
+            <h2>Principal Information</h2>
+            <p><strong>Name:</strong> Mr. HABUMUREMYI EVARISTE</p>
+            <p><strong>Position:</strong> School Principal</p>
+            <p><strong>Message:</strong> Welcome to St Peter College of Shyogwe. 
+            We are committed to academic excellence, discipline, and holistic student development.</p>
+        </div>
+    </section>
+<section class="teachers">
+    <h2>Our Teachers</h2>
+
+    <div class="teacher-container">
+
+        <div class="teacher-card">
+            <img src="2.jfif" alt="Ms. Alice">
+            <h3>Mr. DIDIER</h3>
+            <p><strong>Subject:</strong> conduct VERSION CONTROL</p>
+            <p><strong>Department:</strong> Science</p>
+            <p><strong>Position:</strong> Head of Department</p>
+        </div>
+
+        <div class="teacher-card">
+            <img src="3.jfif" alt="Mr. Peter">
+            <h3>Mrs. CHANTAL</h3>
+            <p><strong>Subject:</strong> Mathematics</p>
+            <p><strong>Department:</strong> science</p>
+            <p><strong>Position:</strong> Senior Teacher</p>
+        </div>
+
+        <div class="teacher-card">
+            <img src="4.jfif" alt="Mrs. Grace">
+            <h3>Mrs. JOSEPHINE</h3>
+            <p><strong>Subject:</strong> develop a Website</p>
+            <p><strong>Department:</strong> Software</p>
+            <p><strong>Position:</strong> Teacher</p>
+        </div>
+
+    </div>
+</section>
+
+    
+    <footer>
+        <p>&copy; 2026 St Peter College of Shyogwe. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
